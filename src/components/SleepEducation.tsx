@@ -2,6 +2,7 @@ import { Brain, Zap, Heart, Shield } from 'lucide-react';
 
 export default function SleepEducation() {
   return (
+    <div className="flex justify-center">
     <div className="bg-white rounded-2xl shadow-xl p-8 max-w-2xl w-full mt-8">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">Understanding Sleep Cycles</h2>
 
@@ -66,6 +67,7 @@ export default function SleepEducation() {
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 }
