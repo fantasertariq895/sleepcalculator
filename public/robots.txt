@@ -1,0 +1,18 @@
+# robots.txt for SleepCalculators.ca
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://sleepcalculators.ca/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 0
+
+# Google AdSense
+User-agent: Mediapartners-Google
+Allow: /
+
+# Disallow admin pages (if any)
+# Disallow: /admin/
+# Disallow: /api/
